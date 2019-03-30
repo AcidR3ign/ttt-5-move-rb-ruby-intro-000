@@ -7,3 +7,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 position = gets
 input_to_index(position)
+move(board, position, "X")
